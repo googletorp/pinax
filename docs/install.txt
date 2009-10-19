@@ -76,14 +76,16 @@ When you are done working with your Pinax project in your virtual env, you
 will most of the times want to deactivate it. There are a few ways to
 deactivate a virtualenv.
 
-Activate a new virtualenv, this will also deactivate the current.
+* the deactivate command. With virtualenv you can run this to deactivate your
+active virtual enviroment:
 
-Start a window/tab in your terminal, this will by default not have a
+        $ deactivate
+
+* Activate a new virtualenv. This will also deactivate the current.
+
+* Start a window/tab in your terminal. This will by default not have a
 virtualenv activated.
 
-With virtualenvwrapper you can run the deactivate command:
-
-    $ deactivate
 
 
 Starting a new Pinax project
