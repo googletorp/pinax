@@ -69,6 +69,24 @@ your virtualenv. As long as the virtualenv is active, your project will have
 access to all of the apps and libraries Pinax provides.
 
 
+Deactivating the virtualenv
+---------------------------
+
+When you are done working with your Pinax project in your virtual env, you
+will most of the times want to deactivate it. There are a few ways to
+deactivate a virtualenv.
+
+* The deactivate command. With virtualenv you can run this to deactivate your
+active virtual enviroment:
+
+        $ deactivate
+
+* Activate a new virtualenv. This will also deactivate the current.
+
+* Start a window/tab in your terminal. This will by default not have a
+virtualenv activated.
+
+
 Starting a new Pinax project
 ----------------------------
 
@@ -111,6 +129,7 @@ default homepage!
 
 Note that mail and some notifications are queued rather than delivered
 immediately. See :ref:`ref-sending-mail-and-notices` for details.
+
 
 What's next?
 ------------
